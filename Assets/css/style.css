@@ -1,0 +1,54 @@
+.max-w1000{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#header{
+    font-size: 25px;
+}
+
+.bg-color{
+    background-color: orange;
+}
+.logo {
+    text-align: center;
+    margin-top: 20px;
+}
+.logo img{
+    background-color: white;
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+a{
+    color: white;
+}
+li:nth-child(2n) {
+    background-color: darkgrey;
+}
+.card{
+    border: none;
+    background-color: orange;
+}
+.btn{
+    background-color: #c1833785;
+
+}
+.btn:hover{
+    background-color: #eed70cd9;
+}
+.btn-primary{
+    border-color: #b9ac85;
+  
+}
+.line-t{
+    
+    text-decoration: line-through;
+}
+
+.tamamlanmis{
+    color: black;
+    text-decoration: line-through;
+}

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+
+    <title>To Do List</title>
+    <style>
+        .list-group-item:focus, .list-group-item:hover {
+            z-index: 1;
+            text-decoration:line-through !important;
+        }
+    </style>
+</head>
+
+<body>
+
+
+   
+
+
+
+
+    <div class="max-w1000">
+        <div class="bg-color">
+            <div class="logo">
+                <img src="Assets/image/image.png">
+            </div>
+
+            <div class="container p-3">
+                <h1 class="app-title" id="header">Yapılacaklar Listesi </h1>
+                <div class="card">
+
+                    <div class="card-body">
+                        <form id="addTaskForm">
+                            <div class="input-group mt-3">
+                                <input type="text" id="txtTaskName" class="form-control"
+                                    placeholder="Bugün ne yapacaksın?">
+                                <div class="input-group-append">
+                                    <button id="btnAddNewTask" class="btn btn-primary" type="submit">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-3">
+                <ul id="task-list" class="list-group">
+                    <li class="list-group-item list-group-item-secondary">3 Lt Su İç
+                        <a href="#" class="delete-item float-right">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </li>
+                    <li class="list-group-item list-group-item-secondary">Ödevleri Yap
+                        <a href="#" class="delete-item float-right">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </li>
+                    <li class="list-group-item list-group-item-secondary">En Az 3 Saat Kodlama Yap
+                        <a href="#" class="delete-item float-right">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </li>
+                    <li class="list-group-item list-group-item-secondary">Yemek Yap
+                        <a href="#" class="delete-item float-right">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </li>
+                    <li class="list-group-item list-group-item-secondary">50 Sayfa Kitap Oku
+                        <a href="#" class="delete-item float-right">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </li>
+                    <li class="list-group-item list-group-item-secondary">Javascript To Do List Ödevini Yap
+                        <a href="#" class="delete-item float-right">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="script.js?v=1"></script>
+</body>
+
+</html>
